@@ -1,0 +1,1 @@
+Personalized expense tracker, used to track expenses/payments and categorize them
