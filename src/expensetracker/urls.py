@@ -23,4 +23,5 @@ urlpatterns = [
     path("", RedirectView.as_view(pattern_name="expenses:list")),
     path("users/", include("users.urls")),
     path("expenses/", include("expenses.urls")),
+    path("categories/", include("categories.urls")),
 ]
